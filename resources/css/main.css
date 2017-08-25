@@ -1,0 +1,234 @@
+html {
+/*    background-color: #eee;   ---- TEST ----*/
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+/* ------------ BRAND-NAME -------------*/
+/* -----------------------------------------------------*/
+
+.brand-name,
+#footer-brand-name {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.brand-name {
+    font-size: 42px;
+    padding: 28px 0 28px 30px;
+}
+
+#footer-brand-name {
+    display: inline-block;
+}
+
+/* ------------ HEADER -------------*/
+/* -----------------------------------------------------*/
+
+header {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+nav {
+    background-color: #ffd421;
+    padding: 20px 40px;
+    border-bottom: 2px solid #000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+} 
+
+nav a:hover {
+    color: #000;
+    border-bottom:  2px solid #fff;
+}
+
+/* ------------ SECTION -------------*/
+/* -----------------------------------------------------*/
+
+section {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px 30px; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------ OVERVIEW -------------*/
+/* -----------------------------------------------------*/
+
+.bg-gray {
+    background-color: #eee;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height:  1.2;
+    padding: 20px 0;
+}
+
+p.intro {
+    padding: 18px 0;
+}
+ 
+
+/* ------  AUTHOR AND SOCIAL MEDIA -------------*/
+/* -----------------------------------------------------*/
+
+.social-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.author {
+    text-align: center;
+}
+
+.author p {
+    font-size: 0.8rem;   
+}
+
+#author {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px; 
+} 
+
+/* ------------ MAIN CONTENT -------------*/
+/* -----------------------------------------------------*/
+
+p.date {
+    font-size: 0.9rem;
+    padding-bottom: 25px;
+}
+
+.main-content img {
+    margin: 20px 0;
+}
+
+h3.sub-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+/* ------------ FOOTER -------------*/
+/* -----------------------------------------------------*/
+
+footer {
+    background-color: #ffd421;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;    
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+
+/* ------------ MEDIA -------------*/
+/* ----------QUERIES----------------------------------*/
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+  }
+    
+    header nav {
+        line-height: 1.1;
+  }
+ 
+    nav {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+  }
+    
+    nav a {
+        margin: 0;
+        padding: 10px;
+    }
+    
+    nav a:hover {
+        border-bottom: none;
+    }
+    
+    .main-img,
+    .main-content img {
+        height: 40vh;
+        width: auto;
+    }   
+}
+
+@media (max-width: 320px){
+    body {
+        font-size: 14px;
+    }
+  
+    header {
+        padding-bottom: 0;
+  }
+  
+  	 .main-img,
+     .main-content img {
+        height: 30vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
